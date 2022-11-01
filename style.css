@@ -1,38 +1,32 @@
-h1,
-h2 {
-  margin-top: 1rem;
-  margin-bottom: 1.75rem;
-  font-size: 5rem;
-  display: inline-flex;
-  color: red;
-  font: helvetica;
+body {
+  font-family: "arial", sans-serif;
+background: rgb(226,223,247);
+background: radial-gradient(circle, rgba(226,223,247,1) 0%, rgba(227,245,223,1) 100%);
 }
-h2 {
-  font-size: 4rem;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-h3 {
-  font-size: 2rem;
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+h1{
+  font-family: 'Abel', sans-serif;
+  font-weight:100;
+  font-size: 40px;
+  text-align:left;
+background: #FF0505;
+background: linear-gradient(to right, #FF0505 0%, #FF8000 30%, #FF0011 60%, #FF3C00 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
-h4 {
-  font-size: 1.5rem;
+
+.container{
+  width:80%;
+  margin:0 auto;
 }
-h5 {
-  font-size: 1.25rem;
-}
-small,
-.text_small {
-  font-size: 0.8rem;
-}
-ul > li,
-ol > li {
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
-  font-size: 1rem;
-}
-ul {
-  padding: 0 0 0 18px;
-  margin: 0;
-}
-ul.no-bullet {
-  list-style-type: none;
+
+a{
+	outline: 0 !important;
 }
