@@ -19,7 +19,7 @@ h1{
 h2{
   font-family: 'Abel', sans-serif;
   font-weight:100;
-  font-size: 20px;
+  font-size: 30px;
   text-align:left;
   background: #FF0505;
   background: linear-gradient(to right, #FF0505 0%, #FF8000 30%, #FF0011 60%, #FF3C00 100%);
@@ -27,10 +27,22 @@ h2{
   -webkit-text-fill-color: transparent;
 }
 
-p, a, ul {
+p {
+  font-family: 'Abel', sans-serif;
+  font-weight:100;
+  font-size: 19px;
+  text-align:left;
+  background: #FF0505;
+  background: linear-gradient(to right, #FF0505 0%, #FF8000 30%, #FF0011 60%, #FF3C00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
   font-family: 'Abel', sans-serif;
   font-weight:100;
   font-size: 15px;
+  text-decoration: underline;
   text-align:left;
   background: #FF0505;
   background: linear-gradient(to right, #FF0505 0%, #FF8000 30%, #FF0011 60%, #FF3C00 100%);
