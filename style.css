@@ -41,13 +41,10 @@ p {
 a {
   font-family: 'Abel', sans-serif;
   font-weight:100;
-  font-size: 15px;
+  font-size: 19px;
   text-decoration: underline;
   text-align:left;
-  background: #FF0505;
-  background: linear-gradient(to right, #FF0505 0%, #FF8000 30%, #FF0011 60%, #FF3C00 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: blue;
 }
 
 .container{
